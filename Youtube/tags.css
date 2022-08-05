@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    flex: 1;
+  }
+  .left-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 480px;
+  }
+  h2 {
+    font-size: 26px;
+    text-shadow: 2px 2px 2px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  strong {
+    color: blue;
+  }
+  .home,
+  .about,
+  .tags,
+  .recipies {
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: underline white;
+  }
+  .right-section {
+    margin-left: 550px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: rgb(103, 91, 196);
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    border-color: white;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 40px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    background-color: rgb(109, 119, 131);
+    color: white;
+    text-align: center;
+    height: 80px;
+    border-radius: 5px;
+    line-height: 10px;
+  }
+  .food {
+    font-size: 20px;
+    font-weight: 600;
+  }

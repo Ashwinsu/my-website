@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    flex: 1;
+  }
+  .left-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 480px;
+  }
+  h2 {
+    font-size: 26px;
+    text-shadow: 2px 2px 2px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  strong {
+    color: blue;
+  }
+  .home,
+  .about,
+  .tags,
+  .recipies {
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: underline white;
+  }
+  .right-section {
+    margin-left: 550px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: rgb(103, 91, 196);
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    border-color: white;
+  }
+  .sub-section {
+    display: flex;
+    margin-top: 20px;
+  }
+  .left-box {
+    width: 100px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .recipie {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .beef,
+  .breakfast,
+  .carrots,
+  .foods {
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  .img-info1,
+  .img-info4 {
+    margin-left: 100px;
+  }
+  .img-info1,
+  .img-info2,
+  .img-info3,
+  .img-info4 {
+    font-size: 21px;
+    color: rgb(53, 50, 50);
+  }
+  .sub-info1,
+  .sub-info4 {
+    margin-left: 100px;
+  }
+  .sub-info1,
+  .sub-info2,
+  .sub-info3,
+  .sub-info4{
+    font-size: 15px;
+    color: rgb(99, 95, 95);
+  }
+  .right-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 10px;
+    row-gap: 30px;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  .carne,
+  .ribs,
+  .soup,
+  .pancake {
+    width: 290px; 
+    border-radius: 5px;
+    object-fit: cover;  
+  }
+  .carne {
+    margin-left: 100px;
+    height: 170px;
+  }
+  .soup {
+    height: 170px;
+  }
+  .ribs {
+    height: 170px;
+  }
+  .pancake {
+    margin-left: 100px;
+    height: 170px;
+  }

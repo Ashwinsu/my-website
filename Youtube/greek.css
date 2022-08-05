@@ -1,0 +1,142 @@
+.header {
+    display: flex;
+    flex: 1;
+  }
+  .left-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 480px;
+  }
+  h2 {
+    font-size: 26px;
+    text-shadow: 2px 2px 2px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  strong {
+    color: blue;
+  }
+  .home,
+  .about,
+  .tags,
+  .recipies {
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: underline white;
+  }
+  .right-section {
+    margin-left: 550px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: rgb(103, 91, 196);
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    border-color: white;
+
+  }
+  .top-box {
+    display: block;
+    display: flex;
+  }
+
+  .right-box {
+   flex: 1;
+   margin-top: 40px;
+  }
+  .top {
+    font-size: 38px;
+  }
+  .mid {
+    line-height: 27px;
+    margin-top: 25px;
+    color: rgb(88, 84, 84);
+  }
+
+
+  .left-box {
+    flex: 1;
+  }
+  .ribs {
+    width: 480px; 
+    border-radius: 5px;
+    object-fit: cover;
+    margin-top: 100px;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .img1 {
+    margin-left: 40px;
+  }
+  .img2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .img3 {
+    margin-right: 40px;
+    margin-top: 5px;
+  }
+  .Prep-Time,
+  .minute-30 {
+    margin-left: 30px;
+  }
+  .Cook-Time {
+    margin-right: 30px;
+  }
+  .minute-15 {
+    margin-left: 15px;
+  }
+  .minute-30,
+  .minute-15,
+  .serving-6 {
+    font-size: 15px;
+    color: gray;
+  }
+
+
+  .bottom-box {
+    display: flex;
+    column-gap: 100px;
+  }
+  .box1 {
+    margin-top: 80px;
+    width: 700px;
+  }
+  .Instructions {
+    font-size: 30px;
+  }
+  .line {
+    width: 500px
+  }
+  h3 {
+    color: rgb(94, 94, 182);
+  }
+  p {
+    color: rgb(75, 67, 67);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(172, 163, 163);
+  }
+  .box2 {
+    margin-top: 80px;
+    width: 400px;
+  }
+  .Ingredients {
+    font-size: 30px;
+  }
+  .p {
+    line-height: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(172, 163, 163);
+  }
+  .Tools {
+    font-size: 30px;
+    margin-top: 50px;
+  }

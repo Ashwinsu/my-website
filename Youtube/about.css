@@ -1,0 +1,121 @@
+.header {
+    display: flex;
+    flex: 1;
+  }
+  .left-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 480px;
+  }
+  h2 {
+    font-size: 26px;
+    text-shadow: 2px 2px 2px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  strong {
+    color: blue;
+  }
+  .home,
+  .about,
+  .tags,
+  .recipies {
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: underline white;
+  }
+  .right-section {
+    margin-left: 500px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-color: rgb(103, 91, 196);
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    border-color: white;
+  }
+  .big-box {
+    display: flex;
+    max-width: 1065px;
+    column-gap: 20px;
+  }
+  .left-box {
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+    display: block;
+  }
+  .text1 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .text2 {
+    padding-top: -25px;
+    line-height: 30px;
+  }
+  .text3 {
+    margin-top: 30px;
+  }
+  .text4 {
+    font-size: 18px;
+    background-color: rgb(103, 91, 196);
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    border-color: white;
+  }
+  .right-box {
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+  }
+  .masala {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .mid-text {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 22px;
+  }
+
+  .bottom-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+  }
+  .img-info1,
+  .img-info2,
+  .img-info3 {
+    font-size: 21px;
+    color: rgb(53, 50, 50);
+  }
+  .sub-info1,
+  .sub-info2,
+  .sub-info3 {
+    font-size: 15px;
+    color: rgb(99, 95, 95);
+  }
+  .carne,
+  .ribs,
+  .soup {
+    width: 340px; 
+    border-radius: 5px;
+    object-fit: cover;  
+  }
+  .carne {
+    height: 170px;
+  }
+  .soup {
+    height: 170px;
+  }
+  .ribs {
+    height: 170px;
+  }
+
+    
+  
